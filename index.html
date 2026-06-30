@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EN → LT Flashcards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top-bar">
+    <h1>EN → LT Flashcards</h1>
+    <p class="subtitle">Simple web-based vocabulary trainer</p>
+</header>
+
+<main class="main">
+    <section class="card-wrapper">
+        <div class="flashcard" id="flashcard">
+            <div class="card-inner" id="card-inner">
+                <div class="card-face card-front">
+                    <p class="card-label">English</p>
+                    <p class="card-text" id="front-text">Hello</p>
+                </div>
+                <div class="card-face card-back">
+                    <p class="card-label">Lithuanian</p>
+                    <p class="card-text" id="back-text">Labas</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn">Previous</button>
+            <button id="flip-btn">Flip</button>
+            <button id="next-btn">Next</button>
+            <button id="random-btn" class="secondary">Random</button>
+        </div>
+
+        <p class="counter" id="counter">Card 1 / 12</p>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>Created by Md Sifaur Rahman · Web Programming Project (Simple Web)</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
